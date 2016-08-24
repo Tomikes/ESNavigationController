@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		27CDF62A1D6D21E300AD09D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF6291D6D21E300AD09D4 /* main.m */; };
-		27CDF62D1D6D21E300AD09D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF62C1D6D21E300AD09D4 /* AppDelegate.m */; };
-		27CDF6301D6D21E300AD09D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF62F1D6D21E300AD09D4 /* ViewController.m */; };
-		27CDF6331D6D21E300AD09D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CDF6311D6D21E300AD09D4 /* Main.storyboard */; };
-		27CDF6351D6D21E300AD09D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CDF6341D6D21E300AD09D4 /* Assets.xcassets */; };
-		27CDF6381D6D21E300AD09D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CDF6361D6D21E300AD09D4 /* LaunchScreen.storyboard */; };
 		27CDF6431D6D21E300AD09D4 /* ESNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF6421D6D21E300AD09D4 /* ESNavigationControllerTests.m */; };
 		27CDF64E1D6D21E300AD09D4 /* ESNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF64D1D6D21E300AD09D4 /* ESNavigationControllerUITests.m */; };
+		27CDF65D1D6D222E00AD09D4 /* ESPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF65C1D6D222E00AD09D4 /* ESPopAnimation.m */; };
+		27CDF6601D6D22A600AD09D4 /* ESNavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF65F1D6D22A600AD09D4 /* ESNavigationInteractiveTransition.m */; };
+		27CDF6631D6D235200AD09D4 /* ESNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDF6621D6D235200AD09D4 /* ESNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +35,18 @@
 /* Begin PBXFileReference section */
 		27CDF6251D6D21E300AD09D4 /* ESNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CDF6291D6D21E300AD09D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		27CDF62B1D6D21E300AD09D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		27CDF62C1D6D21E300AD09D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27CDF62E1D6D21E300AD09D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27CDF62F1D6D21E300AD09D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		27CDF6321D6D21E300AD09D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27CDF6341D6D21E300AD09D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		27CDF6371D6D21E300AD09D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		27CDF6391D6D21E300AD09D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CDF63E1D6D21E300AD09D4 /* ESNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CDF6421D6D21E300AD09D4 /* ESNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESNavigationControllerTests.m; sourceTree = "<group>"; };
 		27CDF6441D6D21E300AD09D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CDF6491D6D21E300AD09D4 /* ESNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CDF64D1D6D21E300AD09D4 /* ESNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESNavigationControllerUITests.m; sourceTree = "<group>"; };
 		27CDF64F1D6D21E300AD09D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CDF65B1D6D222E00AD09D4 /* ESPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPopAnimation.h; sourceTree = "<group>"; };
+		27CDF65C1D6D222E00AD09D4 /* ESPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPopAnimation.m; sourceTree = "<group>"; };
+		27CDF65E1D6D22A600AD09D4 /* ESNavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESNavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		27CDF65F1D6D22A600AD09D4 /* ESNavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESNavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		27CDF6611D6D235200AD09D4 /* ESNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESNavigationController.h; sourceTree = "<group>"; };
+		27CDF6621D6D235200AD09D4 /* ESNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +97,12 @@
 		27CDF6271D6D21E300AD09D4 /* ESNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				27CDF62B1D6D21E300AD09D4 /* AppDelegate.h */,
-				27CDF62C1D6D21E300AD09D4 /* AppDelegate.m */,
-				27CDF62E1D6D21E300AD09D4 /* ViewController.h */,
-				27CDF62F1D6D21E300AD09D4 /* ViewController.m */,
-				27CDF6311D6D21E300AD09D4 /* Main.storyboard */,
-				27CDF6341D6D21E300AD09D4 /* Assets.xcassets */,
-				27CDF6361D6D21E300AD09D4 /* LaunchScreen.storyboard */,
-				27CDF6391D6D21E300AD09D4 /* Info.plist */,
+				27CDF65B1D6D222E00AD09D4 /* ESPopAnimation.h */,
+				27CDF65C1D6D222E00AD09D4 /* ESPopAnimation.m */,
+				27CDF65E1D6D22A600AD09D4 /* ESNavigationInteractiveTransition.h */,
+				27CDF65F1D6D22A600AD09D4 /* ESNavigationInteractiveTransition.m */,
+				27CDF6611D6D235200AD09D4 /* ESNavigationController.h */,
+				27CDF6621D6D235200AD09D4 /* ESNavigationController.m */,
 				27CDF6281D6D21E300AD09D4 /* Supporting Files */,
 			);
 			path = ESNavigationController;
@@ -246,9 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27CDF6381D6D21E300AD09D4 /* LaunchScreen.storyboard in Resources */,
-				27CDF6351D6D21E300AD09D4 /* Assets.xcassets in Resources */,
-				27CDF6331D6D21E300AD09D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27CDF6301D6D21E300AD09D4 /* ViewController.m in Sources */,
-				27CDF62D1D6D21E300AD09D4 /* AppDelegate.m in Sources */,
+				27CDF65D1D6D222E00AD09D4 /* ESPopAnimation.m in Sources */,
 				27CDF62A1D6D21E300AD09D4 /* main.m in Sources */,
+				27CDF6601D6D22A600AD09D4 /* ESNavigationInteractiveTransition.m in Sources */,
+				27CDF6631D6D235200AD09D4 /* ESNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +301,6 @@
 			targetProxy = 27CDF64A1D6D21E300AD09D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		27CDF6311D6D21E300AD09D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27CDF6321D6D21E300AD09D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		27CDF6361D6D21E300AD09D4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27CDF6371D6D21E300AD09D4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		27CDF6501D6D21E300AD09D4 /* Debug */ = {

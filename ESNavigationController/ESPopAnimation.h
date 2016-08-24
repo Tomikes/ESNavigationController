@@ -1,17 +1,13 @@
 //
-//  AppDelegate.h
+//  ESPopAnimation.h
 //  ESNavigationController
 //
 //  Created by mike on 8/24/16.
 //  Copyright © 2016 mike. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface ESPopAnimation : NSObject<UIViewControllerAnimatedTransitioning>
 
 @end
-

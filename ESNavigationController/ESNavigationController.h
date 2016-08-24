@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ESNavigationController.h
 //  ESNavigationController
 //
 //  Created by mike on 8/24/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ESNavigationController : UINavigationController
 
 @end
-
